@@ -15,13 +15,13 @@ class Kocka{
         }
     }
     
-  /*   int[] metanje(int steviloP){
-        Random rand = new Random(steviloP);
+      int[] metanje(int steviloP){
+        Random rand = new Random();
         for(int i = 0; i < poskusi.length; i++){
             poskusi[i] = rand.nextInt(steviloP);
         }
         return poskusi;
-    }*/
+    }
     int[] zaporedje(int poskusov) {
         Random r = new Random();
         poskusi = r.ints(poskusov, 0, steviloPloskev).toArray();
