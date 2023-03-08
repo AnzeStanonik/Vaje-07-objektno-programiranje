@@ -10,4 +10,16 @@ class Trikotnik{
     void stranice(){
         System.out.println(s + " " + s2 + " " +  s3);
     }
+    void obseg(){
+        int o = s + s2 + s3;
+        System.out.println(o);
+    }
+    void ploscina(){
+        double sd = s;
+        double sd2 = s2;
+        double sd3 = s3;
+        double o = sd + sd2 + sd3;
+        double p = Math.sqrt(o/2 * (o/2 - sd) * (o/2 - sd2) * (o/2 - sd3));
+        System.out.println(p);
+    }
 }
