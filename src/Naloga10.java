@@ -1,4 +1,4 @@
-class Naloga10{
+v class Naloga10{
     public static void main(String[] args){
         Oseba oce = new Oseba("Frenk", "Grm", 'M', 1973, null, null);
         Oseba mati = new Oseba("Poli", "Grm", 'Z', 1978, null, null);
